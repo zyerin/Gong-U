@@ -1,0 +1,30 @@
+.main-container {
+    text-align: center;
+ }
+ 
+ .title {
+    padding: 1rem; /* p-4 */
+    font-size: 1.5rem; /* text-2xl */
+ }
+ 
+ .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+ }
+ 
+ .image-gallery-container, .info-container {
+    width: 80%;
+    margin-top: 20px;
+ }
+ 
+ .image-gallery-container {
+    width: 50%;
+ }
+ 
+ .info-container {
+    width: 50%;
+ }
+ 

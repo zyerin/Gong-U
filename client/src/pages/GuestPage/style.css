@@ -1,0 +1,10 @@
+.react-datepicker__day--selected,
+.react-datepicker__day--selected:hover {
+  background-color: #FFC0CB !important;
+  color: white !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #FFC0CB !important;
+  color: white !important;
+}

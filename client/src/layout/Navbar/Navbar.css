@@ -1,0 +1,76 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between; /*양쪽 끝으로 정렬*/
+    background-color: #ffffff;
+    width: 100%;
+ }
+ 
+ /*상단바 버튼*/
+ .nav-button {
+    padding: 10px 30px;
+    margin-right: 50px; /*버튼 중앙 위치*/
+    border: 1px solid #ffffff; /*테두리 선 색깔*/
+    border-radius: 10px;
+ }
+ 
+ /*상단바 로고*/
+ .navbar-logo .logo {
+    height: 50px; /* 상단바에 맞게 로고의 높이를 조절합니다. */
+    width: auto; /* 너비는 자동으로 조절되도록 합니다. */
+ }
+ 
+ .navbar-links a {
+     margin-left: 20px; /* 링크 사이의 간격을 조정합니다 */
+     text-decoration: none; /* 링크 밑줄 제거 */
+     color: #d0baba; /* 링크 색상을 검정으로 설정 */
+ }
+ 
+ /* mainpage.css */
+ .mainpage-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* 전체 화면 높이 */
+    padding: 0px;
+    background-color: rgb(237, 172, 188);
+ }
+ 
+ .logo-section {
+    flex-basis: 50%;
+    justify-content: flex-start;
+ }
+ 
+ .logo {
+    width: 50%; /* 로고 이미지의 너비 */
+ }
+ 
+ /*mainpage HOST , GUEST 버튼*/
+ .buttons-section {
+    display: flex;
+    flex-direction: column; /*수직 정렬*/
+    gap: 0px;
+    margin-right: 200px; /*버튼 중앙 위치*/
+    justify-content: center; /* 세로 축에서 중앙 정렬, 필요한 경우에 사용 */
+ 
+ }
+ 
+ .buttons-section button {
+    width: 150px; /* 버튼의 너비 */
+    height: 50px; /* 버튼의 높이 */
+    padding: 10px 20px; /* 버튼 내부의 상하좌우 여백 */
+    /* 추가적으로, 버튼의 모양을 더 세련되게 만들고 싶다면 */
+    border: none; /* 테두리 제거 */
+    border-radius: 5px; /* 모서리 둥글게 */
+    background-color: white; /* 배경색 */
+    font-size: 15px; /* 내부 텍스트의 크기 */
+    color: black; /* 텍스트 색상 */
+    cursor: pointer; /* 마우스 오버 시 커서 변경 */
+    box-shadow: 0 4px 6px rgba(0, 0.2, 0, 0.2); /* 그림자 추가 */
+ }
+ 
+ .buttons-section button:hover {
+ background-color: #c7c1be; /* 마우스를 올렸을 때의 배경색 */
+ }
+ 

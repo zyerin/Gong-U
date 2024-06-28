@@ -1,0 +1,25 @@
+/* ProductImage.css */
+.image-gallery {
+    max-width: 300px; /* 갤러리 전체의 최대 너비를 설정합니다 */
+    margin: 0 auto; /* 갤러리를 중앙에 배치합니다 */
+}
+
+.image-gallery .image-gallery-slide img {
+    max-height: 300px; /* 슬라이드 이미지의 최대 높이를 설정합니다 */
+    object-fit: cover; /* 이미지 비율을 유지하며 크기를 조정합니다 */
+}
+
+.image-gallery-thumbnail {
+    height: 100px; /* 썸네일 이미지의 높이를 설정합니다 */
+}
+
+.image-gallery-thumbnail img {
+    height: 100%; /* 썸네일 이미지의 높이를 설정합니다 */
+    object-fit: cover; /* 이미지 비율을 유지하며 크기를 조정합니다 */
+}
+
+.image-gallery .image-gallery-left-nav .image-gallery-svg,
+.image-gallery .image-gallery-right-nav .image-gallery-svg {
+    width: 10px; /* Adjust the width as needed */
+    height: 10px; /* Adjust the height as needed */
+}
